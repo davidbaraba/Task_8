@@ -3,11 +3,18 @@
     display: flex;
     align-items: center;
 }
+.absolute{
+    position: absolute;
+}
+.relative{
+    position: relative;
+}
 /* base classes */
 
 /* header */
 .header{
     justify-content: space-around;
+    flex-wrap: wrap;
     margin-bottom: 39px;
 }
 .nav-li{
@@ -32,3 +39,19 @@
     margin-right: 0;
 }
 /* header */
+
+/* banner section */
+.banner{
+    background-image: url(../images/banner.png);
+    width: 100%;
+    height: 938px;
+    display: flex;
+    background-position: center;
+}
+.txt-box{
+    bottom: 129px;
+    left: 350px;
+    padding: 66px 300px;
+    background-color: white;
+}
+/* banner section */
