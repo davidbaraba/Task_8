@@ -94,3 +94,46 @@
     line-height: 1.3;
 }
 /* mission section */
+
+/* cover section */
+.cover{
+    background-color:white;
+    display: flex;
+    justify-content: center;
+}
+.text-box{
+    display: flex;
+    flex-direction: column;
+}
+.text-box h1{
+    color: #36413E;
+    font-family: 'Kazimir-RegularItalic';
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    margin: 110px 0 64px 0;
+}
+.text-box p{
+    width: 696px;
+    text-align: center;
+    color: #7F7F7F;
+    font-family: 'Kazimir-RegularItalic';
+    font-size: 20px;
+}
+.text{
+    margin-top: 35px;
+}
+.btn{
+    background-color: #36413E;
+    color: white;
+    margin: 25px 0;
+    width: 148px;
+    height: 48px;
+    font-family: 'Brandon Grotesque Bold';
+    font-size: 12px;
+}
+.btn-div{
+    display: flex;
+    justify-content: center;
+}
+/* cover section */
