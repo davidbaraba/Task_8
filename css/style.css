@@ -141,6 +141,7 @@
 /* footer */
 .footer{
     background-color: #306B34;
+    justify-content: space-between;
 }
 .privacy-li,
 .footer-li{
@@ -149,7 +150,7 @@
 }
 .privacy-a{
     color: white;
-    margin-right: 422px;
+    /* margin-right: 422px; */
     margin-left: 31px;
     text-transform: uppercase;
     font-family: 'Brandon Grotesque Bold';
