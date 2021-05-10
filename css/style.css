@@ -1,0 +1,34 @@
+/* base classes */
+.flex{
+    display: flex;
+    align-items: center;
+}
+/* base classes */
+
+/* header */
+.header{
+    justify-content: space-around;
+    margin-bottom: 39px;
+}
+.nav-li{
+    margin-right: 106px;
+}
+.nav-li:last-child{
+    margin-right: 0;
+}
+.nav-a{
+    font-family: 'Brandon Grotesque Regular';
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #7F7F7F;
+}
+.social-li{
+    margin-right: 15px;
+}
+.social-li:nth-child(1){
+    margin-right: 38px;
+}
+.nav-li:last-child{
+    margin-right: 0;
+}
+/* header */
